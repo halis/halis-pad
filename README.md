@@ -40,8 +40,9 @@ console.log( pad.right3( 'Hello' ) ); // "Hello   "
 console.log( pad.right4( 'Hello' ) ); // "Hello    "
 console.log( pad.rightUntil( 'Hello', 14 ) ); // "Hi            "
 
-const padStars = require( 'halis-pad' ) ( '*' );
-console.log( pad3.both( ' Hello ') ); // "*** Hello ***";
+const star = '*';
+const padStars = require( 'halis-pad' ) ( star );
+console.log( padStars.both3( ' Hello ') ); // "*** Hello ***";
 
 const bad = require( 'halis-pad' ) ( '   ' );
 // ERROR: length on padWith cannot be more than 1
