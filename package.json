@@ -1,0 +1,32 @@
+{
+  "name": "halis-pad",
+  "version": "1.0.0",
+  "description": "Pad left, right or both (to your heart's content)",
+  "main": "./src/pad.js",
+  "scripts": {
+    "test": "clear && mocha \"test/**/*.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/halis/halis-pad.git"
+  },
+  "keywords": [
+    "pad",
+    "left",
+    "right",
+    "both"
+  ],
+  "author": "Chris Grimes (http://halistechnology.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/halis/halis-pad/issues"
+  },
+  "homepage": "https://github.com/halis/halis-pad#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3"
+  },
+  "dependencies": {
+    "halis-compose": "^1.0.6"
+  }
+}
