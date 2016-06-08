@@ -1,6 +1,6 @@
 {
   "name": "halis-pad",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Pad left, right or both (to your heart's content)",
   "main": "./src/pad.js",
   "scripts": {
