@@ -63,8 +63,6 @@ describe( 'pad', () => {
 			expect( pad.bothUntil( 'Hi', 14 )).to.equal( '      Hi      ' );
 		});
 
-		
-
 	});
 	
 	describe( 'pad.left', () => {
